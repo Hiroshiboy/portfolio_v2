@@ -1,5 +1,6 @@
 import React from "react";
-import { BookOpenIcon } from "@heroicons/react/solid";
+import { BookOpenIcon } from "react-icons/hi2";
+import Card from Card;
 export default function Skills() {
   
   return (
@@ -10,6 +11,7 @@ export default function Skills() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Skills
           </h1>
+
           
         </div>
       </div>
