@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowRightIcon, MenuIcon, XIcon } from "@heroicons/react/solid";
+import { HiArrowRight, HiBars3, HiOutlineXMark } from "react-icons/hi2";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,9 +23,9 @@ export default function Navbar() {
               className="text-white focus:outline-none"
             >
               {isMenuOpen ? (
-                <XIcon className="w-6 h-6" />
+                <HiOutlineXMark className="w-6 h-6" />
               ) : (
-                <MenuIcon className="w-6 h-6" />
+                <HiBars3 className="w-6 h-6" />
               )}
             </button>
           </div>
@@ -53,7 +53,7 @@ export default function Navbar() {
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
         >
           Contact Info
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
+          <HiArrowRight className="w-4 h-4 ml-1" />
         </a>
       </div>
     </header>
