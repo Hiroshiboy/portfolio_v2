@@ -10,9 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Photo by Mike Yukhtenko on Unsplash*/
-background: url(./images/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg) no-repeat;
-background-size: cover;
-background-position: top;
+  background: url(./images/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 
