@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { IconContext } from "react-icons";
 
-const Card = ({ icon: Icon, title, content }) => {
+const SkillCard = ({ icon: Icon, title, content }) => {
   return (
     <div className="card max-w-sm rounded overflow-hidden shadow-lg m-2 p-2 bg-gray-200">
       <IconContext.Provider value={{ size: "2em" }}>
@@ -18,10 +18,10 @@ const Card = ({ icon: Icon, title, content }) => {
   );
 };
 
-Card.propTypes = {
+SkillCard.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
   icon: PropTypes.elementType,
 };
 
-export default Card;
+export default SkillCard;
